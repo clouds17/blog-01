@@ -5,8 +5,12 @@ class baseModel {
             data = null
             message = null
         }
-        this.data = data
-        this.message = message
+        if (data) {
+            this.data = data
+        }
+        if (message) {
+            this.message = message
+        }
     }
 }
 
